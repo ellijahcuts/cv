@@ -10,7 +10,7 @@ export type ProjectPropsType ={
 const Project = (props:ProjectPropsType) => {
     return (
         <div className={style.projectCore}>
-            <div className={style.icon}>
+            <div className={style.iconContainer}>
                 <img src={props.img} className={style.icon} />
             </div>
             <button className={style.button}>Смотреть</button>

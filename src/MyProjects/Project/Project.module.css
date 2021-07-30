@@ -1,5 +1,5 @@
 .projectCore {
-    width: 460px;
+    width: 450px;
     background-color: #8d8181;
     display: flex;
     flex-direction: column;
@@ -7,9 +7,14 @@
     text-align: center;
 }
 
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .icon {
-    width: 450px;
-    height:230px;
+    width: 100%;
+    height: 230px;
 }
 .button{
     margin-top: 10px;

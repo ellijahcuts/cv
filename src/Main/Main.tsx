@@ -12,7 +12,7 @@ const Main = () => {
                     <h1>I am Ilya Kazak</h1>
                     <p>Frontend Developer</p>
                 </div>
-                <div className={style.photo}>
+                <div className={style.photoContainer}>
                     <img className={style.photo} src={myPhoto}/>
                 </div>
             </div>
