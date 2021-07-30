@@ -1,0 +1,13 @@
+.skillCore {
+    width: 250px;
+    background-color: #8d8181;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 150px;
+    height:150px;
+}
