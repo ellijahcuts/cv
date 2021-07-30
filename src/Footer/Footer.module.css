@@ -1,0 +1,27 @@
+.footer {
+    height: 20vh;
+    background-color: #aa83b9;
+}
+.footerContainer{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    background-color: #9f9c9c
+}
+.contacts{
+    border: 1px #000000 solid;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image{
+    height: 60px;
+    width: 60px;
+}
+
+.lastMessage{
+    background-color: #9f9c9c;
+    border: 1px black solid;
+}

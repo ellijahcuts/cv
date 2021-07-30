@@ -1,6 +1,7 @@
 .mainBlock {
     height: 100vh;
     background-color: cadetblue;
+    text-align: center;
 }
 
 .text {
@@ -9,7 +10,6 @@
 }
 
 .photo {
-    width: 250px;
-    height: 300px;
-    background-color: gold;
+    width: 350px;
+    height: 400px;
 }

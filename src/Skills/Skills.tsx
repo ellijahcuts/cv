@@ -2,6 +2,10 @@ import React from 'react';
 import style from './Skills.module.css';
 import styleContainer from './../common/styles/Container.module.css';
 import Skill from "./Skill/Skill";
+import jsLogo from '../common/images/js-logo.png'
+import cssLogo from '../common/images/css-logo.png'
+import reactLogo from '../common/images/react-logo.png'
+
 
 const Skills = () => {
     return (
@@ -10,16 +14,16 @@ const Skills = () => {
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
                 <Skill title={"JS"}
-                       img={"http://w3.org.ua/wp-content/uploads/2017/01/icon.javascript.png"}
-                       description={"WHITE / Охлаждающий спрей для машинок,смазывание ножей, чистка машинок 650 мл CLIPPER BLADE CARE SPRAY 7 in1 "}
+                       img={jsLogo}
+                       description={"JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript "}
                 />
                 <Skill title={"CSS"}
-                       img={"https://itproger.com/img/courses/1476977488.jpg"}
-                       description={"WHITE / Охлаждающий спрей для машинок,смазывание ножей, чистка машинок 650 мл CLIPPER BLADE CARE SPRAY 7 in1 "}
+                       img={cssLogo}
+                       description={"CSS (Cascading Style Sheets «каскадные таблицы стилей») — формальный язык описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки (чаще всего HTML или XHTML)."}
                 />
                 <Skill title={"REACT"}
-                       img={"https://ru.reactjs.org/logo-og.png"}
-                       description={"WHITE / Охлаждающий спрей для машинок,смазывание ножей, чистка машинок 650 мл CLIPPER BLADE CARE SPRAY 7 in1 "}
+                       img={reactLogo}
+                       description={"React (иногда React.js или ReactJS) — JavaScript-библиотека[4] с открытым исходным кодом для разработки пользовательских интерфейсов."}
                 />
                 </div>
             </div>
