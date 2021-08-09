@@ -13,7 +13,7 @@ const Skill = (props:SkillPropsType) => {
             <div className={style.icon}>
         <img src={props.img} className={style.icon} />
         </div>
-            <h3>{props.title}</h3>
+            <h3 className={style.skillTitle}>{props.title}</h3>
             <span>
                 {props.description}
             </span>

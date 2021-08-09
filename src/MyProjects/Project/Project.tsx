@@ -15,7 +15,7 @@ const Project = (props:ProjectPropsType) => {
             </div>
             <button className={style.button}>Смотреть</button>
             <span>
-                <h4>{props.title}</h4>
+                <h4 className={style.projectTitle}>{props.title}</h4>
                 {props.description}
             </span>
         </div>
