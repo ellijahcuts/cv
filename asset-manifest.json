@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.d0756e26.chunk.css",
-    "main.js": "/cv/static/js/main.8400d847.chunk.js",
-    "main.js.map": "/cv/static/js/main.8400d847.chunk.js.map",
+    "main.js": "/cv/static/js/main.26d12ddf.chunk.js",
+    "main.js.map": "/cv/static/js/main.26d12ddf.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.40dd2c80.js",
     "runtime-main.js.map": "/cv/static/js/runtime-main.40dd2c80.js.map",
     "static/js/2.d6ac4234.chunk.js": "/cv/static/js/2.d6ac4234.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/counter.ec1a5cea.png": "/cv/static/media/counter.ec1a5cea.png",
     "static/media/github-logo.43a7198c.png": "/cv/static/media/github-logo.43a7198c.png",
     "static/media/js-logo.2d140973.png": "/cv/static/media/js-logo.2d140973.png",
-    "static/media/my-photo.3126d0be.png": "/cv/static/media/my-photo.3126d0be.png",
+    "static/media/my-photo.07bda183.png": "/cv/static/media/my-photo.07bda183.png",
     "static/media/react-logo.5a55112b.png": "/cv/static/media/react-logo.5a55112b.png",
     "static/media/sc.442a00ea.png": "/cv/static/media/sc.442a00ea.png",
     "static/media/todo.6607f93d.png": "/cv/static/media/todo.6607f93d.png"
@@ -24,6 +24,6 @@
     "static/js/runtime-main.40dd2c80.js",
     "static/js/2.d6ac4234.chunk.js",
     "static/css/main.d0756e26.chunk.css",
-    "static/js/main.8400d847.chunk.js"
+    "static/js/main.26d12ddf.chunk.js"
   ]
 }
