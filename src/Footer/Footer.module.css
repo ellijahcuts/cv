@@ -10,7 +10,7 @@
 }
 .contacts{
     border: 1px #000000 solid;
-    width: 280px;
+    width: 260px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
