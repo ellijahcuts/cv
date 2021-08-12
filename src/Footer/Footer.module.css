@@ -1,5 +1,4 @@
 .footer {
-    background-color: #aa83b9;
 }
 .footerContainer{
     flex-direction: column;
@@ -10,7 +9,7 @@
 }
 .contacts{
     border: 1px #000000 solid;
-    width: 240px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
