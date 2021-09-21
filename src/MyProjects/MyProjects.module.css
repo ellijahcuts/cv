@@ -1,32 +1,23 @@
-.projectsCore{
-background-color: rgba(0, 0, 0, 0.73);
+.projectsCore {
+    background-color: #1b1d23;
 }
-.projectsContainer{
+
+.projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
-.title{
-    margin-bottom: 30px;
-}
-.title h2{
-    font-family: 'Rubik', sans-serif;
-    margin: 0;
-    color: #fff;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 1.2;
-    letter-spacing: 1px;
-}
 
-.projects{
+.projects {
+    margin-top: 30px;
     border: 1px #000000 solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 @media screen and (max-width: 1129px) {
-    .projects{
+    .projects {
         justify-content: center;
     }
 }

@@ -12,13 +12,14 @@ import storyLogo from '../common/images/story-logo.png'
 import htmlLogo from '../common/images/html-logo.png'
 import nodeLogo from '../common/images/node-logo.png'
 import materialLogo from '../common/images/material-logo.png'
+import Title from "../common/components/title/Title";
 
 
 const Skills = () => {
     return (
         <div className={style.skillBlock}>
             <div className={`${styleContainer.container} ${style.skillContainer}`}>
-                <h2 className={style.title}>Skills</h2>
+                <Title title={"Skills"}/>
                 <div className={style.skills}>
                     <Skill title={"HTML"}
                            img={htmlLogo}

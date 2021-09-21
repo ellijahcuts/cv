@@ -5,15 +5,14 @@ import Project from "./Project/Project";
 import scImg from '../common/images/sc.png'
 import todoImg from '../common/images/todo.png'
 import counterImg from '../common/images/counter.png'
+import Title from "../common/components/title/Title";
 
 
 const MyProjects = () => {
     return (
         <div className={style.projectsCore}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <div className={style.title}>
-                    <h2>My Projects</h2>
-                </div>
+                <Title title={"My projects"}/>
                 <div className={style.projects}>
                     <Project title={"Social Network"}
                              img={scImg}
