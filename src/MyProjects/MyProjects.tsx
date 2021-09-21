@@ -11,7 +11,9 @@ const MyProjects = () => {
     return (
         <div className={style.projectsCore}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <h2 className={style.title}>My Projects</h2>
+                <div className={style.title}>
+                    <h2>My Projects</h2>
+                </div>
                 <div className={style.projects}>
                     <Project title={"Social Network"}
                              img={scImg}
