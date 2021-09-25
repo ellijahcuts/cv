@@ -19,7 +19,7 @@ const Skills = () => {
     return (
         <div className={style.skillBlock}>
             <div className={`${styleContainer.container} ${style.skillContainer}`}>
-                <Title title={"Skills"}/>
+                <Title text={"Skills"}/>
                 <div className={style.skills}>
                     <Skill title={"HTML"}
                            img={htmlLogo}

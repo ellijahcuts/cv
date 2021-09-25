@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './MyProjects.module.css';
+import style from './MyProjects.module.scss';
 import styleContainer from '../common/styles/Container.module.css';
 import Project from "./Project/Project";
 import scImg from '../common/images/sc.png'
@@ -22,7 +22,7 @@ const MyProjects = () => {
         return (
         <div className={style.projectsCore}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title title={"My projects"}/>
+                <Title text={"My projects"}/>
                 <div className={style.projects}>
                     <Project title={"Social Network"}
                              style={social}

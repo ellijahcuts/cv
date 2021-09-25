@@ -1,14 +1,14 @@
 import React from 'react';
-import style from './Title.module.css';
+import style from './Title.module.scss';
 
 type TitlePropsType = {
-    title: string
+    text: string
 }
 
 const Title = (props: TitlePropsType) => {
     return (
         <div className={style.title}>
-            <h2>{props.title}</h2>
+            <h2>{props.text}</h2>
         </div>
     );
 };

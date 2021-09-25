@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../../MyProjects/Project/Project.module.css";
+import style from "./Project.module.scss";
 
 export type ProjectPropsType = {
     title: string
@@ -13,10 +13,10 @@ const Project = (props: ProjectPropsType) => {
             <div className={style.projectImg} style={props.style}>
                 <button className={style.button}>Смотреть</button>
             </div>
-            <span className={style.description}>
+            <div className={style.projectInfo}>
                 <h4 className={style.projectTitle}>{props.title}</h4>
-                {props.description}
-            </span>
+                <span className={style.description}>{props.description}</span>
+            </div>
         </div>
     );
 };
