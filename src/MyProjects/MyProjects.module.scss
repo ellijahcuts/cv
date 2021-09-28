@@ -1,5 +1,8 @@
+@import "src/common/styles/sass/variables";
+
 .projectsCore {
-  background-color: #1b1d23;
+  height: 100vh;
+  background-color: $bgSecondColor;
 
   .projectsContainer {
     flex-direction: column;

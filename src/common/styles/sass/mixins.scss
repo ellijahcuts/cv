@@ -1,0 +1,15 @@
+@import "src/common/styles/sass/variables";
+
+@mixin text($fontFamily, $fonsSize,$fontWeight,$lineHeight) {
+  font-family: $fontFamily;
+  font-size: $fonsSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  color: $textColor;
+
+}
+@mixin centerImage(){
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
