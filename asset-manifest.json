@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.056f789a.chunk.css",
-    "main.js": "/cv/static/js/main.85ae5c59.chunk.js",
-    "main.js.map": "/cv/static/js/main.85ae5c59.chunk.js.map",
-    "runtime-main.js": "/cv/static/js/runtime-main.40dd2c80.js",
-    "runtime-main.js.map": "/cv/static/js/runtime-main.40dd2c80.js.map",
-    "static/js/2.d6ac4234.chunk.js": "/cv/static/js/2.d6ac4234.chunk.js",
-    "static/js/2.d6ac4234.chunk.js.map": "/cv/static/js/2.d6ac4234.chunk.js.map",
-    "static/js/3.5692811e.chunk.js": "/cv/static/js/3.5692811e.chunk.js",
-    "static/js/3.5692811e.chunk.js.map": "/cv/static/js/3.5692811e.chunk.js.map",
+    "main.css": "/cv/static/css/main.5a76f311.chunk.css",
+    "main.js": "/cv/static/js/main.a13231f5.chunk.js",
+    "main.js.map": "/cv/static/js/main.a13231f5.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.0c979c7f.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.0c979c7f.js.map",
+    "static/js/2.ad2f5a39.chunk.js": "/cv/static/js/2.ad2f5a39.chunk.js",
+    "static/js/2.ad2f5a39.chunk.js.map": "/cv/static/js/2.ad2f5a39.chunk.js.map",
+    "static/js/3.198b13a7.chunk.js": "/cv/static/js/3.198b13a7.chunk.js",
+    "static/js/3.198b13a7.chunk.js.map": "/cv/static/js/3.198b13a7.chunk.js.map",
     "index.html": "/cv/index.html",
-    "static/css/main.056f789a.chunk.css.map": "/cv/static/css/main.056f789a.chunk.css.map",
-    "static/js/2.d6ac4234.chunk.js.LICENSE.txt": "/cv/static/js/2.d6ac4234.chunk.js.LICENSE.txt",
-    "static/media/counter.ec1a5cea.png": "/cv/static/media/counter.ec1a5cea.png",
+    "static/css/main.5a76f311.chunk.css.map": "/cv/static/css/main.5a76f311.chunk.css.map",
+    "static/js/2.ad2f5a39.chunk.js.LICENSE.txt": "/cv/static/js/2.ad2f5a39.chunk.js.LICENSE.txt",
+    "static/media/counter.5aede69c.png": "/cv/static/media/counter.5aede69c.png",
     "static/media/github-logo.43a7198c.png": "/cv/static/media/github-logo.43a7198c.png",
     "static/media/js-logo.2d140973.png": "/cv/static/media/js-logo.2d140973.png",
     "static/media/material-logo.f148721d.png": "/cv/static/media/material-logo.f148721d.png",
@@ -22,9 +22,9 @@
     "static/media/todo.6607f93d.png": "/cv/static/media/todo.6607f93d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.40dd2c80.js",
-    "static/js/2.d6ac4234.chunk.js",
-    "static/css/main.056f789a.chunk.css",
-    "static/js/main.85ae5c59.chunk.js"
+    "static/js/runtime-main.0c979c7f.js",
+    "static/js/2.ad2f5a39.chunk.js",
+    "static/css/main.5a76f311.chunk.css",
+    "static/js/main.a13231f5.chunk.js"
   ]
 }
