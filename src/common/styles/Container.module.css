@@ -7,3 +7,16 @@
     justify-content: space-between;
     flex-wrap: wrap ;
 }
+.containerForMain {
+    padding: 50px 200px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.42);
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
