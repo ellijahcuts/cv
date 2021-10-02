@@ -8,15 +8,13 @@
     flex-wrap: wrap ;
 }
 .containerForMain {
-    padding: 50px 200px;
-    position: relative;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.42);
-    z-index: 2;
+    z-index: 1;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }

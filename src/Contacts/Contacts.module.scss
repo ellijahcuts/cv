@@ -1,5 +1,7 @@
-.contactsCore {
+@import "src/common/styles/sass/variables.scss";
 
+.contactsCore {
+background-color:$bgColor;
 }
 
 .contactsContainer {

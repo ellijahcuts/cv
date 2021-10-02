@@ -5,6 +5,7 @@ import myPhoto from '../common/images/my-photo.png'
 
 
 
+
 const Main = () => {
     return (
         <div className={style.mainBlock}>

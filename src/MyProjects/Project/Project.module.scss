@@ -8,6 +8,7 @@
   background-color: $bgColor;
   flex-direction: column;
 
+
   .projectImg {
     height: 300px;
     display: flex;
@@ -38,6 +39,8 @@
 
   .projectInfo {
     padding: 25px 30px;
+    display: flex;
+    flex-wrap: wrap ;
 
     .projectTitle {
       @include text($titleFontFamily, 26px, 500, 1.2);

@@ -1,6 +1,8 @@
-.skillBlock {
+@import "src/common/styles/sass/variables.scss";
 
-background-color: black;
+.skillBlock {
+    background-color: $bgColor;
+
 }
 
 .skillContainer {
@@ -9,12 +11,10 @@ background-color: black;
 }
 
 .title {
-    background-color: #9f9c9c;
+    background-color: $textColor;
 }
 
 .skills {
-    margin-top: 30px;
-    border: 1px #000000 solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
