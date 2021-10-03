@@ -10,15 +10,13 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h2 className={style.title}>Ilya Kazak</h2>
+                <h2 className={style.title}>2021 I.Kazak. All right reserved.</h2>
                 <div className={style.contacts}>
                     <img className={style.image} src={linkedLogo}/>
                     <img className={style.image} src={telegramLogo}/>
                     <img className={style.image} src={instLogo}/>
                     <img className={style.image} src={gitLogo}/>
-
                 </div>
-                <span className={style.lastMessage}>All rights reserved</span>
             </div>
 
         </div>

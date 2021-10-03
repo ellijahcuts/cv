@@ -1,7 +1,7 @@
 
 .skillCore {
     width: 300px;
-    background-color: #8d8181;
+    background-color: rgba(141, 129, 129, 0.15);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,5 +14,5 @@
 }
 
 .skillTitle {
-    background-color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.26);
 }

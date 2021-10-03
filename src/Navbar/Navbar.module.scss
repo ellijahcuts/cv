@@ -1,0 +1,31 @@
+@import "src/common/styles/sass/variables";
+
+.navbar {
+  border: 1px solid;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.fpCore a{
+  background-color: $bgColor;
+  text-decoration: none;
+  margin: 0 0 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#fff;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  display:flex;
+  flex-direction:column;
+
+}
+.fpCore a.activeLink {
+  color: gold;
+  background-color: #726f6f;
+}
+.noActiveLink:hover{
+  background: gainsboro;
+}
