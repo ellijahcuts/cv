@@ -9,6 +9,8 @@ const NavbarFP = () => {
             <div className={style.fpCore}>
                 <NavLink to="/skills" className={style.noActiveLink} activeClassName={style.activeLink}>Skills</NavLink>
                 <NavLink to="/projects" activeClassName={style.activeLink}>My Projects</NavLink>
+                <NavLink to="/contacts" activeClassName={style.activeLink}>Contacts</NavLink>
+
             </div>
         </nav>
     );
