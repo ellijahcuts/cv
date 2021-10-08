@@ -23,7 +23,7 @@ function App() {
                 <MyProjects/>}/>
             <Route path='/contacts' render={() =>
                 <Contacts/>}/>
-            <Footer/>
+            {/*<Footer/>*/}
         </div>
         </BrowserRouter>
     );
