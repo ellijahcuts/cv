@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.scss';
 import Header from "./Header/Header";
-import Main from "./Main/Main";
 import Skills from "./Skills/Skills";
 import MyProjects from "./MyProjects/MyProjects";
 import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
+import MainAlt from "./Main/MainAlt";
+
 function App() {
     return (
         <div className="App">
             <Header/>
-            <Main/>
+            <MainAlt/>
             <Skills/>
             <MyProjects/>
             <Contacts/>

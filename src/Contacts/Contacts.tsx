@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Contacts.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 
+
 const Contacts = () => {
     return (
         <div className={style.contactsCore}>
@@ -13,6 +14,7 @@ const Contacts = () => {
                     <textarea className={style.textArea} placeholder={"Type comment"}/>
                     <button className={style.button}>Send</button>
                 </form>
+
             </div>
         </div>
     );

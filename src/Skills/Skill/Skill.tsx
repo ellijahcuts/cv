@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Skill.module.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export type SkillPropsType ={
     title: string
