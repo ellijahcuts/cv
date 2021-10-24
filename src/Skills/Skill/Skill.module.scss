@@ -1,11 +1,11 @@
-
+@import "src/common/styles/sass/variables.scss";
 .skillCore {
     width: 300px;
-    background-color: rgba(141, 129, 129, 0.15);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
 }
 
 .icon {
@@ -15,4 +15,12 @@
 
 .skillTitle {
     background-color: rgba(0, 0, 0, 0.26);
+}
+.diamond{
+    text-align: center;
+
+    width: 7rem;
+    height: 7rem;
+    background: $bgColor;
+    transform: rotate(-45deg);
 }

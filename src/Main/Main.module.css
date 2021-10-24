@@ -3,8 +3,9 @@
     text-align: center;
 }
 
-.text {
-    width: 300px;
+.textBlock {
+    width: 600px;
+    font-size: 30px;
     color: white;
     z-index: 2;
 }
@@ -21,15 +22,6 @@
     z-index: 2;
 }
 
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-}
-
 .particles {
     position: absolute;
     top: 0;
@@ -38,3 +30,4 @@
     right: 0;
     opacity: 0.3;
 }
+

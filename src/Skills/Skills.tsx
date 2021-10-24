@@ -2,67 +2,101 @@ import React from 'react';
 import style from './Skills.module.scss';
 import styleContainer from './../common/styles/Container.module.css';
 import Skill from "./Skill/Skill";
-import jsLogo from '../common/images/js-logo.png'
-import cssLogo from '../common/images/css-logo.png'
-import reactLogo from '../common/images/react-logo.png'
-import githubLogo from '../common/images/github-logo.png'
-import tsLogo from '../common/images/ts-logo.png'
-import reduxLogo from '../common/images/redux-logo.png'
-import storyLogo from '../common/images/story-logo.png'
-import htmlLogo from '../common/images/html-logo.png'
-import nodeLogo from '../common/images/node-logo.png'
-import materialLogo from '../common/images/material-logo.png'
 import Title from "../common/components/title/Title";
+import {Fade} from "react-awesome-reveal"
+import {SiHtml5} from "@react-icons/all-files/si/SiHtml5";
+import {SiJavascript} from "@react-icons/all-files/si/SiJavascript";
+import {SiTypescript} from "@react-icons/all-files/si/SiTypescript";
+import {SiCss3} from "@react-icons/all-files/si/SiCss3";
+import {SiReact} from "@react-icons/all-files/si/SiReact";
+import {SiRedux} from "@react-icons/all-files/si/SiRedux";
+import {SiNodeDotJs} from "@react-icons/all-files/si/SiNodeDotJs";
+import {SiGit} from "@react-icons/all-files/si/SiGit";
+import {SiStorybook} from "@react-icons/all-files/si/SiStorybook";
+import {SiMaterialUi} from "@react-icons/all-files/si/SiMaterialUi";
+
 
 
 const Skills = () => {
     return (
         <div className={style.skillBlock}>
-            <div className={`${styleContainer.container} ${style.skillContainer}`}>
-                <Title text={"Skills"}/>
-                <div className={style.skills}>
-                    <Skill title={"HTML"}
-                           img={htmlLogo}
-                           description={"HTML — стандартизированный язык разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора."}
-                    />
-                    <Skill title={"JS"}
-                           img={jsLogo}
-                           description={"JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript "}
-                    />
-                    <Skill title={"TS"}
-                           img={tsLogo}
-                           description={"TypeScript — язык программирования, представленный Microsoft в 2012 году и позиционируемый как средство разработки веб-приложений, расширяющее возможности JavaScript."}
-                    />
-                    <Skill title={"CSS"}
-                           img={cssLogo}
-                           description={"CSS — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. Также может применяться к любым XML-документам, например, к SVG или XUL."}
-                    />
-                    <Skill title={"REACT"}
-                           img={reactLogo}
-                           description={"React — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов. React разрабатывается и поддерживается Facebook, Instagram и сообществом отдельных разработчиков и корпораций. React может использоваться для разработки одностраничных и мобильных приложений."}
-                    />
-                    <Skill title={"REDUX"}
-                           img={reduxLogo}
-                           description={"Redux — библиотека для JavaScript с открытым исходным кодом, предназначенная для управления состоянием приложения. Чаще всего используется в связке с React или Angular для разработки клиентской части. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст."}
-                    />
-                    <Skill title={"NodeJS"}
-                           img={nodeLogo}
-                           description={"Node или Node.js — программная платформа, основанная на движке V8, превращающая JavaScript из узкоспециализированного языка в язык общего назначения."}
-                    />
-                    <Skill title={"GIT"}
-                           img={githubLogo}
-                           description={"Git — распределённая система управления версиями."}
-                    />
-                    <Skill title={"STORYBOOK"}
-                           img={storyLogo}
-                           description={"Storybook - это инструмент с открытым исходным кодом для изолированного создания компонентов пользовательского интерфейса и страниц. Он упрощает разработку пользовательского интерфейса, тестирование и документацию."}
-                    />
-                    <Skill title={"MATERIAL UI"}
-                           img={materialLogo}
-                           description={"Material-UI - это простая и настраиваемая библиотека компонентов."}
-                    />
+            <Fade cascade>
+                <div className={`${styleContainer.container} ${style.skillContainer}`}>
+                    <Title text={"Skills"}/>
+                    <div className={style.skills}>
+                        <Skill title={"HTML"}
+                               img={<SiHtml5
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"HTML — стам HTTP/HTTPS или бражаться на экране монитора."}
+                        />
+                        <Skill title={"JS"}
+                               img={<SiJavascript
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"JavaScript — мулцификации ECMAScript "}
+                        />
+                        <Skill title={"TS"}
+                               img={<SiTypescript
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"TypeScript —возможности JavaScript."}
+                        />
+                        <Skill title={"CSS"}
+                               img={<SiCss3
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"CSS — нтам, например, к SVG или XUL."}
+                        />
+                        <Skill title={"REACT"}
+                               img={<SiReact
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"React —cebook, Instagильных приложений."}
+                        />
+                        <Skill title={"REDUX"}
+                               img={<SiRedux
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"Redища через контекст."}
+                        />
+                        <Skill title={"NodeJS"}
+                               img={<SiNodeDotJs
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"Node и."}
+                        />
+                        <Skill title={"GIT"}
+                               img={<SiGit
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"Git —."}
+                        />
+                        <Skill title={"STORYBOOK"}
+                               img={<SiStorybook
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"Storельс"}
+                        />
+                        <Skill title={"MATERIAL UI"}
+                               img={<SiMaterialUi
+                                   style={{color: "#FFC93C"}}
+                                   className={style.icon}
+                               />}
+                               description={"Mater"}
+                        />
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 };
