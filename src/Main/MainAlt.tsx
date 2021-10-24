@@ -8,10 +8,10 @@ import Particles from "react-particles-js";
 const particlesOptions = {
     particles: {
         number:{
-          value: 300
+          value: 170
         },
         move: {
-            speed: 0.35
+            speed: 0.40
         },
         size: {
             random: true,
