@@ -26,73 +26,64 @@ const Skills = () => {
                     <div className={style.skills}>
                         <Skill title={"HTML"}
                                img={<SiHtml5
-                                   style={{color: "#FFC93C"}}
+                                   style={{color: "#e34e0d"}}
                                    className={style.icon}
                                />}
-                               description={"HTML — стам HTTP/HTTPS или бражаться на экране монитора."}
+                        />
+                        <Skill title={"CSS"}
+                               img={<SiCss3
+                                   style={{color: "#0463d0"}}
+                                   className={style.icon}
+                               />}
                         />
                         <Skill title={"JS"}
                                img={<SiJavascript
                                    style={{color: "#FFC93C"}}
                                    className={style.icon}
-                               />}
-                               description={"JavaScript — мулцификации ECMAScript "}
+                                   />}
                         />
                         <Skill title={"TS"}
                                img={<SiTypescript
-                                   style={{color: "#FFC93C"}}
+                                   style={{color: "#3888ff"}}
                                    className={style.icon}
                                />}
-                               description={"TypeScript —возможности JavaScript."}
                         />
-                        <Skill title={"CSS"}
-                               img={<SiCss3
-                                   style={{color: "#FFC93C"}}
-                                   className={style.icon}
-                               />}
-                               description={"CSS — нтам, например, к SVG или XUL."}
-                        />
-                        <Skill title={"REACT"}
-                               img={<SiReact
-                                   style={{color: "#FFC93C"}}
-                                   className={style.icon}
-                               />}
-                               description={"React —cebook, Instagильных приложений."}
-                        />
-                        <Skill title={"REDUX"}
-                               img={<SiRedux
-                                   style={{color: "#FFC93C"}}
-                                   className={style.icon}
-                               />}
-                               description={"Redища через контекст."}
-                        />
-                        <Skill title={"NodeJS"}
+                        <Skill title={"NodeJs"}
                                img={<SiNodeDotJs
-                                   style={{color: "#FFC93C"}}
+                                   style={{color: "#179d08"}}
                                    className={style.icon}
-                               />}
-                               description={"Node и."}
+                                   />}
                         />
-                        <Skill title={"GIT"}
-                               img={<SiGit
-                                   style={{color: "#FFC93C"}}
+                        <Skill title={"React"}
+                               img={<SiReact
+                                   style={{color: "#06e9ff"}}
                                    className={style.icon}
                                />}
-                               description={"Git —."}
+
+                        />
+                        <Skill title={"Redux"}
+                               img={<SiRedux
+                                   style={{color: "#7403ff"}}
+                                   className={style.icon}
+                               />}
+                        />
+                        <Skill title={"Git"}
+                               img={<SiGit
+                                   style={{color: "#ff1f25"}}
+                                   className={style.icon}
+                               />}
                         />
                         <Skill title={"STORYBOOK"}
                                img={<SiStorybook
-                                   style={{color: "#FFC93C"}}
+                                   style={{color: "#e755ff"}}
                                    className={style.icon}
                                />}
-                               description={"Storельс"}
                         />
                         <Skill title={"MATERIAL UI"}
                                img={<SiMaterialUi
-                                   style={{color: "#FFC93C"}}
+                                   style={{color: "#3d6aff"}}
                                    className={style.icon}
                                />}
-                               description={"Mater"}
                         />
                     </div>
                 </div>

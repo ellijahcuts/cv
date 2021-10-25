@@ -1,26 +1,27 @@
 @import "src/common/styles/sass/variables.scss";
+
 .skillCore {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-}
-
-.icon {
-    width: 150px;
-    height: 150px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .skillTitle {
-    background-color: rgba(0, 0, 0, 0.26);
+  color: $textColor;
+  font-family: $titleFontFamily;
+  font-size: 18px;
+  padding-bottom: 25px;
 }
-.diamond{
-    text-align: center;
+.skillTitleBox {
+  padding-top: 30px;
+}
 
-    width: 7rem;
-    height: 7rem;
-    background: $bgColor;
-    transform: rotate(-45deg);
+.diamond {
+  width: 9rem;
+  height: 9rem;
+  background: $bgColor;
+  transform: rotate(-45deg);
+  padding-bottom: 25px;
 }

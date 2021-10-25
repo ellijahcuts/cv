@@ -10,7 +10,7 @@ import MainAlt from "./Main/MainAlt";
 function App() {
     return (
         <div className="App">
-            <Header/>
+            {/*<Header/>*/}
             <MainAlt/>
             <Skills/>
             <MyProjects/>

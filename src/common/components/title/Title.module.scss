@@ -1,10 +1,11 @@
+@import "src/common/styles/sass/variables.scss";
 .title{
   margin: 0 0 30px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: $titleFontFamily;
   color:#fff;
   text-transform: capitalize;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 0.6;
   letter-spacing: 5px;
   position: relative;
   .title h2{
@@ -13,8 +14,8 @@
   &::before{
     content: "";
     position: absolute;
-    background: #ffffff;
-    width: 155px;
+    background:$textColor;
+    width: 130px;
     height: 1px;
     bottom: 1px;
     left: 50%;

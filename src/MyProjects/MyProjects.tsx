@@ -6,6 +6,7 @@ import scImg from '../common/images/sc.png'
 import todoImg from '../common/images/todo.png'
 import counterImg from '../common/images/counter.png'
 import Title from '../common/components/title/Title';
+import {Fade} from "react-awesome-reveal";
 
 const MyProjects = () => {
 
@@ -21,6 +22,7 @@ const MyProjects = () => {
 
         return (
         <div className={style.projectsCore}>
+            <Fade cascade>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={"My projects"}/>
                 <div className={style.projects}>
@@ -36,6 +38,7 @@ const MyProjects = () => {
                              description={"Простой счетчик кликов с настройками параметров, задание для IT-incubator'a"}/>
                 </div>
             </div>
+        </Fade>
         </div>
     );
 };

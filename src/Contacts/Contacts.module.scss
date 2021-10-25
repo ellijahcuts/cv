@@ -1,7 +1,7 @@
 @import "src/common/styles/sass/variables.scss";
 
 .contactsCore {
-background-color:$bgColor;
+background-color:$bgSecondColor;
 }
 
 .contactsContainer {
@@ -14,9 +14,7 @@ background-color:$bgColor;
 }
 
 .contactsBlock {
-    border: 1px #000000 solid;
     width: 250px;
-    background-color: #8d8181;
     display: flex;
     flex-direction: column;
     align-content: center;
